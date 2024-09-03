@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    text-align: start;
+    padding-top: 20px;
+    
+    
+}
+.form-container h2{
+    font-size: 24px;
+}
+.form-container a{
+    color: black;
+}
+.password-requirements {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.password-requirements ul {
+    
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.password-requirements ul li {
+    margin-bottom: 5px;
+    display: inline-block;
+    padding-right: 10px;
+}
+.form-container form .btn{
+    background-color: #6c757d;
+    border-radius: 30px;
+    height: 50px;
+    color: white;
+}
+
+.right-section {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.right-section img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
